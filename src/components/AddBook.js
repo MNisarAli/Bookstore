@@ -16,7 +16,9 @@ const AddBook = () => {
     event.preventDefault();
     const { title, author } = book;
     if (title.trim() && author.trim()) {
-      dispatch(addBookAction({ id: uuidv4(), title, author }));
+      dispatch(addBookAction({
+        item_id: uuidv4(), title, author, category: '',
+      }));
       setBook({ title: '', author: '' });
     }
   };
