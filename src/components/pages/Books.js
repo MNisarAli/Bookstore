@@ -13,16 +13,15 @@ const Books = () => {
   }, [dispatch]);
 
   return (
-    <section>
-      <ul>
+    <>
+      <section className="books">
         {books.map((book) => (
-          <li key={book.id}>
-            <BookItem book={book} />
-          </li>
+          <BookItem key={book.id} book={book} />
         ))}
-      </ul>
+      </section>
+      <p className="section-divider" />
       <AddBook />
-    </section>
+    </>
   );
 };
 
