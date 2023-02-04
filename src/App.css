@@ -12,14 +12,14 @@ body {
 
 #root {
   margin: 0;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   border-radius: 5px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
   background-color: #fafafa;
 }
 
 .nav-bar {
-  padding: 24px 3rem;
+  padding: 24px 4%;
   background-color: white;
   border-bottom: solid 1px #e8e8e8;
   display: flex;
@@ -211,7 +211,7 @@ li {
 }
 
 .add-book {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .new-form {
