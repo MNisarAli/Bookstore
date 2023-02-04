@@ -280,3 +280,14 @@ li {
   background-color: #e8e8e8;
   margin: 0 1rem;
 }
+
+.cat-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.info-txt {
+  font-family: "Montserrat", sans-serif;
+  align-self: center;
+}
