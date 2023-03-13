@@ -102,7 +102,7 @@ This project can be used to practice React router.
 <!-- FUTURE FEATURES -->
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Full Website]**
+- [ ] **[Categories page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

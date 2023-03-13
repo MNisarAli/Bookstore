@@ -11,9 +11,9 @@ const Categories = () => {
   };
 
   return (
-    <section>
-      <p>{categoriesData}</p>
-      <button type="button" onClick={handleCheckStatus}>Check status</button>
+    <section className="cat-section">
+      <p className="info-txt">{categoriesData}</p>
+      <button className="primary-button" type="button" onClick={handleCheckStatus}>Check status</button>
     </section>
   );
 };
